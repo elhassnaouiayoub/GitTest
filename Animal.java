@@ -13,7 +13,7 @@ public class Animal {
     public static void main(String[] args) {
         String firstArgument = args[0];
         String output = "";
-        
+
        if(firstArgument.equalsIgnoreCase("bird"))
             output = getBirdGreeting();
         else if(firstArgument.equalsIgnoreCase("cat"))
